@@ -44,16 +44,6 @@
 
 [이미지 출처](https://doitnow-man.tistory.com/110)
 
-## Multi-Process
-
-의미 
-
-​	하나의 응용프로그램을 여러 개의 프로세스로 구성하여 각 프로세스가 하나의 작업(태스크)을 처리하도록 하는 것 [출처](https://gmlwjd9405.github.io/2018/09/14/process-vs-thread.html)
-
-![image](https://t1.daumcdn.net/cfile/tistory/206EC33C4E1EAEFF1D)
-
-[이미지 출처](https://sumanaki.tistory.com/127)
-
 ### [참고] context-switching
 
 의미
@@ -64,9 +54,7 @@
 
 [이미지 출처](https://www.crocus.co.kr/1364)
 
-
-
-### Multi-Process 특징
+### Process 특징
 
 단점
 
@@ -79,13 +67,23 @@
 
 
 
+## Multi-Process
+
+의미 
+
+​	하나의 응용프로그램을 여러 개의 프로세스로 구성하여 각 프로세스가 하나의 작업(태스크)을 처리하도록 하는 것 [출처](https://gmlwjd9405.github.io/2018/09/14/process-vs-thread.html)
+
+![image](https://t1.daumcdn.net/cfile/tistory/206EC33C4E1EAEFF1D)
+
+[이미지 출처](https://sumanaki.tistory.com/127)
+
 ## Thread
 
 ### 의미
 
 - 프로세스보다 작은 실행 단위
-
  - cpu 입장에서 최소 작업 단위
+ - 경량화한 프로세스
 
 ### 설명
 
@@ -101,7 +99,22 @@
 
 [이미지 출처](https://gmlwjd9405.github.io/2018/09/14/process-vs-thread.html)
 
-### 종류
+### Thread 특징
+
+장점
+
+ - 스레드 생성, 종료 시 시간, 메모리 절약
+ - 스레드 간 통신 용이
+ - context-switching 시 시간, 메모리 절약
+ - 사용자에 대해 응답성 향상
+
+단점
+
+ - 한 스레드가 다른 스레드에도 영향을 미침
+ - 공유하는 메모리가 일관성 있어야 해서, 스레드 간 동기화 필수
+ - 까다로운 디버깅과 설계
+
+### Thread 종류
 
 참고) ![img](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F6604a69d-75cc-4e6a-b180-5a3d202ac332%2FUntitled.png?table=block&id=9d35fbf6-775b-4547-8d23-b07e93d861fa&spaceId=9a63b1b9-8a1a-49fc-9c6a-41fb66a7f1d0&width=2000&userId=178d97a6-254f-4d35-ba52-0ea67072d181&cache=v2)
 
@@ -185,20 +198,6 @@
 
 ->   concurrency, 병렬 처리(parallelism)
 
-### 장점
-
- - 스레드 생성, 종료 시 시간, 메모리 절약
- - 스레드 간 통신 용이, 응답 시간 빠름
- - context-switching 시 시간, 메모리 절약
-
-### 단점
-
- - 한 스레드가 다른 스레드에도 영향을 미침
- - 공유하는 메모리가 일관성 있어야 해서, 스레드 간 동기화 필수
- - 까다로운 디버깅과 설계
-
-
-
 ## 참고
 
 ### Multi tasking
@@ -211,7 +210,7 @@
 
 ## process vs  thread 정리
 
-![image-20211213112452845](process_thread.assets/image-20211213112452845.png)
+![image-20211213134520127](process_thread.assets/image-20211213134520127.png)
 
 ## References
 
