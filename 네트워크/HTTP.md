@@ -1,6 +1,6 @@
 # HTTP
 
-## HTTP(HypterText Transfer Protocol) 란?
+## HTTP(HyperText Transfer Protocol) 란?
 
 - HTTP란 웹 상에서 클라이언트와 서버 간 통신을 위한 프로토콜
 
