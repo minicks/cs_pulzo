@@ -2,7 +2,7 @@
 
 ## HTTPS(HyperText Transfer Protocol Secure) 란?
 
-- SSL, TSL 프로토콜을 사용하여 HTTP의 보안을 강화한 프로토콜
+- SSL, TLS 프로토콜을 사용하여 HTTP의 보안을 강화한 프로토콜
 - 구글에서 HTTPS를 사용하는 웹 사이트에 가산점 부여 => SEO 향상
 
 ## SSL(secure sockets layer)
