@@ -2,7 +2,7 @@
 
 ## 인트로
 
-![img](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fb85f5f07-161b-417f-ab07-3701889240f3%2FUntitled.png?table=block&id=8429c6c8-9160-4062-aac5-a159d1c351e9&spaceId=9a63b1b9-8a1a-49fc-9c6a-41fb66a7f1d0&width=2000&userId=178d97a6-254f-4d35-ba52-0ea67072d181&cache=v2)
+![image-20220105224453898](CPU 스케줄링.assets/image-20220105224453898.png)
 
 [출처](http://jangun.com/study/OperatingSystem.html)
 
@@ -14,7 +14,7 @@ CPU 스케줄링: 준비(ready) 상태에 있는 프로세스들 중에 어느 �
 
 
 
-![img](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fac0442d7-d834-41de-85dd-ea9d0f6b9816%2FUntitled.png?table=block&spaceId=9a63b1b9-8a1a-49fc-9c6a-41fb66a7f1d0&id=5d73ab37-53c6-4c49-9981-472611ec0d76&width=2000&userId=178d97a6-254f-4d35-ba52-0ea67072d181&cache=v2)
+![image-20220105224531847](CPU 스케줄링.assets/image-20220105224531847.png)
 
 [출처](https://velog.io/@ssseungzz7/OS-CPU-Scheduling)
 
@@ -67,9 +67,7 @@ cpu 스케줄링 시점은 프로세스 상태에 따라서 네 가지
 
 Convoy Effect(호위 효과): CPU 점유시간이 큰 프로세스가 먼저 CPU를 점유하는 경우, 수행 시간이 짧은 프로세스들이 오래 기다림. ⇒  나머지 프로세스들의 대기시간이 덩달아 늘어나는 현상.
 
-## ![img](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fa33fe3a6-410f-4f86-aa23-ebe8f29d0cce%2FUntitled.png?table=block&id=a7f78144-f3c1-4613-b1b5-7d71f2dd0500&spaceId=9a63b1b9-8a1a-49fc-9c6a-41fb66a7f1d0&width=2000&userId=178d97a6-254f-4d35-ba52-0ea67072d181&cache=v2)
-
-[출처](https://www.javatpoint.com/os-convoy-effect-in-fcfs)
+## ![image-20220105224555978](CPU 스케줄링.assets/image-20220105224555978.png)[출처](https://www.javatpoint.com/os-convoy-effect-in-fcfs)
 
 
 
@@ -87,7 +85,7 @@ cpu burst time이  짧은 프로세스를 먼저 처리해주는 방식
 
 => 해결) 과거의 burst time을 통해서 다음 burst time을 예측한다. 지수 평균- 다음 버스트 타임은 이전 버스트 타임의 지수적 평균으로 생각한다고 함. (과거 버스트 타임 가지고 예측한다.)
 
-![img](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fb0f35ed3-3ce0-4b67-b26f-1e3742474853%2FUntitled.png?table=block&id=59bbe42c-6dc4-4b89-a822-8a4b9807e366&spaceId=9a63b1b9-8a1a-49fc-9c6a-41fb66a7f1d0&width=2000&userId=178d97a6-254f-4d35-ba52-0ea67072d181&cache=v2)
+![image-20220105224617366](CPU 스케줄링.assets/image-20220105224617366.png)
 
 [출처](https://cs.stackexchange.com/questions/140364/confusion-about-the-definition-of-exponential-average)
 
@@ -169,7 +167,7 @@ Time slice 시간이 중요함 - 너무 커지면 FCFS와 같아져서 비효율
 
 ### 다단계 스케줄링(MLQ, Multi Level Queue) 
 
-![img](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F71d8fc33-20a2-496c-aa72-a7883498f321%2FUntitled.png?table=block&id=e7834b63-2939-45d3-ae41-da668377b7a3&spaceId=9a63b1b9-8a1a-49fc-9c6a-41fb66a7f1d0&width=2000&userId=178d97a6-254f-4d35-ba52-0ea67072d181&cache=v2)
+![image-20220105224640328](CPU 스케줄링.assets/image-20220105224640328.png)
 
 [출처](http://blog.skby.net/cpu-선점-스케줄링-기법/)
 
@@ -187,25 +185,23 @@ Time slice 시간이 중요함 - 너무 커지면 FCFS와 같아져서 비효율
 
 ### 다단계 피드백 큐 스케줄링(MFQ, Multi Level Feedback Queue)
 
-![img](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F3ba13331-a05d-4dd1-bd4e-73fd39e4e52d%2FUntitled.png?table=block&id=71c87d89-7e5f-491d-8482-a29a1f54fb79&spaceId=9a63b1b9-8a1a-49fc-9c6a-41fb66a7f1d0&width=2000&userId=178d97a6-254f-4d35-ba52-0ea67072d181&cache=v2)
+![image-20220105224922317](CPU 스케줄링.assets/image-20220105224922317.png)
 
 [출처](http://blog.skby.net/cpu-선점-스케줄링-기법/)
 
 다단계 큐 + 동적인 프로세스 우선 순위 변화 적용.
 
-준비 큐 여러 개. 큐마다 다른 스케줄링 알고리즘 적용 가능.
-
 프로세스는 다른 큐로 이동 가능.
 
-프로세스 생성 시, 가장 높은 우선 순위 준비 큐에 등록. => time quantum 끝나면 우선 순위 한 단계 낮은 큐에 등록. 
+준비 큐 여러 개. 큐마다 다른 time slice 부여. 낮은 단계일 수록 time slice 증가.
 
-타임 슬라이스 내에 입출력 작업으로 cpu 내놓거나, 오래 대기하면 다시 우선 순위 올려줄 수도 있음.
+프로세스 생성 시, 가장 높은 우선 순위 준비 큐에 등록. => time slice 끝날 때까지 cpu 차지하고 있으면,  우선 순위 한 단계 낮은 큐에 등록. 
+
+타임 슬라이스 내에 입출력 작업으로 cpu 내놓거나, 오래 대기하면 다시 우선 순위 올려줄 수 있음.
 
 CPU bound 프로세스는 낮은 우선 순위의 큐에, i/o bound 프로세스는 높은 우선 순위 큐에 배치.
 
 마지막 단계 큐는 라운드 로빈/FCFS 방식.
-
-
 
 ## 참고 자료
 
