@@ -22,6 +22,10 @@ CPU burst time: 프로세스가 한번 cpu 잡았을 때 가지고 있는 시간
 
 ## CPU 스케줄링의 성능 평가 기준
 
+![img](https://blog.kakaocdn.net/dn/dlNkdt/btrhez6GCQz/1ELdLGlOOjsN3BgPgTlct0/img.jpg)
+
+[출처](https://nohack.tistory.com/41)
+
 CPU utilization(CPU 이용율) - cpu 활용 정도.
 
 Throughput(처리량) - 단위 시간 당 완료되는 프로세스 수. 
@@ -30,7 +34,7 @@ Turn-around Time(실행부터 종료까지의 시간! 총 처리 시간)- 시스
 
 Waiting Time(ready queue의 대기시간) - 준비 큐에서 cpu 할당받을 때까지 기다리는 시간. 
 
-Response Time(응답시간) - 어떤 요구에 대해서 시스템이 반응을 하는 데까지 걸리는 시간.
+Response Time(응답시간) - 어떤 요구에 대해서 시스템이 반응을 시작하는 데까지 걸리는 시간. 
 
 => 균형 있게 해야 함. 어떤 시스템인지에 따라서 기준 달라질 수도. 
 
@@ -165,7 +169,7 @@ Time slice 시간이 중요함 - 너무 커지면 FCFS와 같아져서 비효율
 
 
 
-### 다단계 스케줄링(MLQ, Multi Level Queue) 
+### 다단계 큐 스케줄링(MLQ, Multi Level Queue) 
 
 ![image-20220105224640328](CPU스케줄링.assets/image-20220105224640328.png)
 
@@ -201,8 +205,6 @@ Time slice 시간이 중요함 - 너무 커지면 FCFS와 같아져서 비효율
 
 CPU bound 프로세스는 낮은 우선 순위의 큐에, i/o bound 프로세스는 높은 우선 순위 큐에 배치.
 
-마지막 단계 큐는 라운드 로빈/FCFS 방식.
-
 ## 참고 자료
 
 [운영체제_CPU 스케줄링](https://m.blog.naver.com/qkrqhtjd0806/222607634472)
@@ -215,5 +217,5 @@ CPU bound 프로세스는 낮은 우선 순위의 큐에, i/o bound 프로세스
 
 [[운영체제 OS\] 다단계 큐 스케줄링(MLQ), 다단계 피드백 큐 스케줄링(MFQ)](https://cocoon1787.tistory.com/124)
 
-
+[CPU를 효율적으로 사용하기 위한 스케줄링](https://nohack.tistory.com/41)
 
