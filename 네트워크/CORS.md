@@ -1,7 +1,23 @@
 ## 목차
+- [목차](#목차)
+- [CORS(Cross-Origin Resource Sharing, 교차(다른) 출처 리소스 공유)](#corscross-origin-resource-sharing-교차다른-출처-리소스-공유)
+    - [CORS를 누가 알아야 하는가?](#cors를-누가-알아야-하는가)
+    - [출처(origin)](#출처origin)
+    - [SOP(Same-Origin Policy)](#sopsame-origin-policy)
+    - [CORS를 사용하는 경우](#cors를-사용하는-경우)
+- [CORS 등장 배경](#cors-등장-배경)
+    - [JSONP(JSON with Padding)](#jsonpjson-with-padding)
+- [동작 방식](#동작-방식)
+    - [프리플라이트 요청(preflighted request, 예비 요청)](#프리플라이트-요청preflighted-request-예비-요청)
+    - [단순 요청(Simple requests)](#단순-요청simple-requests)
+    - [인증정보를 포함한 요청](#인증정보를-포함한-요청)
+    - [HTTP 응답 헤더](#http-응답-헤더)
+    - [HTTP 요청 해더](#http-요청-해더)
+- [출처](#출처)
 
 ## CORS(Cross-Origin Resource Sharing, 교차(다른) 출처 리소스 공유)
-- CORS를 누가 알아야 하는가?
+
+#### CORS를 누가 알아야 하는가?
 
 > 모든 사람이요, 진짜로
 
@@ -20,7 +36,7 @@ CORS는 추가 HTTP헤더를 사용, 한 출처에서 실행 중인 웹 어플�
 #### SOP(Same-Origin Policy)
 - 웹에서 리소스 요청을 제한하는 정책 중 하나
 - 포트의 경우 달라도 같은 출처로 인정해 줌 (IE 제외)
-- 2011 [RFC 6454](https://datatracker.ietf.org/doc/html/rfc6454#page-5에서 처음 등장한 보안 정책
+- 2011 [RFC 6454](https://datatracker.ietf.org/doc/html/rfc6454#page-5)에서 처음 등장한 보안 정책
 - 다른 출처에 대한 제약이 없다면, CSRF(Cross-Site Request Forgery), XSS(Cross-Site Scripting)에 취약
 
 #### CORS를 사용하는 경우
