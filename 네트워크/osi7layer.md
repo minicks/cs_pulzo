@@ -18,11 +18,11 @@ OSI 네트워크 모델(Open Systems Interconnection Reference Model), OSI 7 �
 
 ![Untitled](osi7layer/Untitled%201.png)
 
-[출처]([https://velog.io/@amuse/OSI-7-Layers](https://velog.io/@amuse/OSI-7-Layers))
+[https://velog.io/@amuse/OSI-7-Layers](https://velog.io/@amuse/OSI-7-Layers)
 
 ![Untitled](osi7layer/Untitled%202.png)
 
-[출처]([http://wiki.hash.kr/index.php/파일:OSI_7_계층.jpg](http://wiki.hash.kr/index.php/%ED%8C%8C%EC%9D%BC:OSI_7_%EA%B3%84%EC%B8%B5.jpg))
+[http://wiki.hash.kr/index.php/파일:OSI_7_계층.jpg](http://wiki.hash.kr/index.php/%ED%8C%8C%EC%9D%BC:OSI_7_%EA%B3%84%EC%B8%B5.jpg)
 
 # 참고 자료
 
