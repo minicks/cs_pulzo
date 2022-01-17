@@ -10,6 +10,7 @@
 - [HTTP](네트워크/HTTP.md) & [HTTPS](네트워크/HTTPS.md)
 - [블로킹&논블로킹&동기&비동기](네트워크/블로킹&논블로킹&동기&비동기.md)
 - [CORS](네트워크/CORS.md)
+- [OSI 7 layer](네트워크/osi7layer.md)
 
 ## DB
 - [SQL vs NoSQOL](데이터베이스/SQLvsNoSQL.md)
