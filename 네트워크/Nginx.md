@@ -17,18 +17,10 @@
 - 프로세스, 스레드 생성 비용이 없고, 적은 자원으로 효율적 운영 가능
 - 단일 서버에서도 많은 연결 처리 가능
 
-#### 왜 Nginx
-- 리버스 프록시를 통하여 서버 앞단에서 요청을 처리
-    - 앞단에서 처리하는 과정으로 보안적인 부분 향상 가능
-    - 웹 어플리케이션이 DB와 대부분 직접적으로 연결되어 있어 최전방에 있으면 보안에 취약해짐
-- 스위치 역할을 할 수 있음
-    - 프로세스 응답 대기를 막고, 요청 분배 등
-
-#### 기존 웹 서버와 차이점
-- 동시에 처리할 수 있는 연결 수를 비약적으로 증가시킴
+- Nginx에서는 이를 앋ㄹ성하기 위해 동시에 처리할 수 있는 연결 수를 비약적으로 증가시킴
 - 설계를 다음과 같은 방식으로 구현
     - 고정된 수의 worker 프로세스만 관리
-    - 이 프로세스는 blocked 되지 않고,, listen소켓과 connection소케의 이벤트 기반으로 non-blocking으로 동작
+    - 이 프로세스는 blocked 되지 않고,, listen소켓과 connection소켓의 이벤트 기반으로 non-blocking으로 동작
 
 ![기존 web](https://www.nginx.com/wp-content/uploads/2015/06/infographic-Inside-NGINX_blocking.png)
 
@@ -39,6 +31,12 @@
 
 - 연결을 전담으로 하는 프로세스, 스레드를 두지 않음
 - config에 지정된 수의 worker 프로세스만 고정되어 있고, woker 프로세스들이 listen socket, connection socket 2개의 이벤트를 모두 처리
+#### 왜 Nginx
+- 리버스 프록시를 통하여 서버 앞단에서 요청을 처리
+    - 앞단에서 처리하는 과정으로 보안적인 부분 향상 가능
+    - 웹 어플리케이션이 DB와 대부분 직접적으로 연결되어 있어 최전방에 있으면 보안에 취약해짐
+- 스위치 역할을 할 수 있음
+    - 프로세스 응답 대기를 막고, 요청 분배 등
 
 ## 리버스 프록시
 
@@ -67,7 +65,7 @@
 - events : 네트워크 동작 방법과 관련한 설정
     - worker_connections : 하나의 프로세서가 동시에 몇 개의 연결을 처리할 수 있는지를 의미하고 보통 512 또는 1024로 설정
     - use epoll : epoll 방식으로 이벤트를 처리해 줌
-        - epoll : linux 소켓을 관리하는 방법중 하나로, 이외에도 poo, select 방식이 있음
+        - epoll : linux 소켓을 관리하는 방법중 하나로, 이외에도 pool, select 방식이 있음
         - epoll 방식은 Nginx의 모든 소켓 파일을 찾아보는게 아니라 현재 활성화 된 소캣만 확인해서 연결을 설정하는 방식, poll 방식에서 업그레이드된 방식
 - http : nginx로 들어오는 웹 트래픽 처리 방법, 방향을 지정
     - upstream : `upstream 'HOST이름'`형태로 작성
@@ -121,7 +119,7 @@ nginx    32482 32475  0 13:36 ?        00:00:00  _ nginx: cache loader process
 
 ![worker](https://www.nginx.com/wp-content/uploads/2015/06/infographic-Inside-NGINX_worker-process.png)
 
-- worker 프로세스틑 Nginx 설정에 따라 초기화되고, master process에 의해 listen socket을 제공받음
+- worker 프로세스를 Nginx 설정에 따라 초기화되고, master process에 의해 listen socket을 제공받음
 - 새로운 connection 요청이 들어오면 이벤트가 발생, connection 종류에 따라 알맞은 상태 기계에 할당
     - HTTP state machine
     - Stream state machine (raw TCP)
