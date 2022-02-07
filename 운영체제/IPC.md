@@ -15,7 +15,7 @@
 
 ![https://t1.daumcdn.net/cfile/tistory/247CBC4357187A3411](https://t1.daumcdn.net/cfile/tistory/247CBC4357187A3411)
 
-[출처]([https://jwprogramming.tistory.com/54](https://jwprogramming.tistory.com/54))
+[출처](https://jwprogramming.tistory.com/54)
 
 - 두 개의 프로세스를 연결.
 - 하나는 쓰기만, 하나는 읽기만 가능함. (단방향 통신)→ 단순한 데이터 흐름을 가질 때 효율적.
@@ -25,7 +25,7 @@
 
 ![https://t1.daumcdn.net/cfile/tistory/99E1BC3359FC780518](https://t1.daumcdn.net/cfile/tistory/99E1BC3359FC780518)
 
-[출처]([https://mangkyu.tistory.com/9](https://mangkyu.tistory.com/9))
+[출처](https://mangkyu.tistory.com/9)
 
 ### 명명된 파이프(Named PIPE)
 
@@ -37,7 +37,7 @@
 
 ![https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile4.uf.tistory.com%2Fimage%2F9936B1335B975B8105D210](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile4.uf.tistory.com%2Fimage%2F9936B1335B975B8105D210)
 
-[출처]([https://doitnow-man.tistory.com/110](https://doitnow-man.tistory.com/110))
+[출처](https://doitnow-man.tistory.com/110)
 
 - 메모리를 사용한 PIPE
 - FIFO 구조, 단방향
@@ -50,11 +50,11 @@
 
 ![https://postfiles.pstatic.net/20110313_253/akj61300_1299955250738qVkol_JPEG/K-22.jpg?type=w2](https://postfiles.pstatic.net/20110313_253/akj61300_1299955250738qVkol_JPEG/K-22.jpg?type=w2)
 
-[출처]([https://blog.naver.com/akj61300/80126200460](https://blog.naver.com/akj61300/80126200460))
+[출처](https://blog.naver.com/akj61300/80126200460)
 
 ![https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile28.uf.tistory.com%2Fimage%2F995C864E5B9766171D9786](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile28.uf.tistory.com%2Fimage%2F995C864E5B9766171D9786)
 
-[출처([https://doitnow-man.tistory.com/110](https://doitnow-man.tistory.com/110))
+[출처](https://doitnow-man.tistory.com/110)
 
 - 대량의 정보를 다수의 프로세스에 배포 가능
 - 양방향
@@ -69,7 +69,7 @@
 
 ![https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile27.uf.tistory.com%2Fimage%2F9951304F5B9863F82D94DD](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile27.uf.tistory.com%2Fimage%2F9951304F5B9863F82D94DD)
 
-[출처]([https://doitnow-man.tistory.com/110](https://doitnow-man.tistory.com/110))
+[출처](https://doitnow-man.tistory.com/110)
 
 ### 소켓(Socket)
 
@@ -80,7 +80,7 @@
 
 ![https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcoRU8V%2FbtqUYHzqKoF%2FaukvQle0MCQnf1hcMAblJ1%2Fimg.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcoRU8V%2FbtqUYHzqKoF%2FaukvQle0MCQnf1hcMAblJ1%2Fimg.png)
 
-[출처]([https://cotak.tistory.com/45](https://cotak.tistory.com/45))
+[출처](https://cotak.tistory.com/45)
 
 ### 참고 자료
 
