@@ -13,7 +13,7 @@
 
 ### 익명 파이프
 
-[https://t1.daumcdn.net/cfile/tistory/247CBC4357187A3411](https://t1.daumcdn.net/cfile/tistory/247CBC4357187A3411)
+![https://t1.daumcdn.net/cfile/tistory/247CBC4357187A3411](https://t1.daumcdn.net/cfile/tistory/247CBC4357187A3411)
 
 [출처]([https://jwprogramming.tistory.com/54](https://jwprogramming.tistory.com/54))
 
@@ -23,7 +23,7 @@
 - 통신할 프로세스를 명확하게 알 수 있을 때 사용. (부모- 자식 프로세스 간 통신). 외부 프로세스에서 사용 불가능.
 - 송수신 하고 싶으면, 파이프를 두 개 써야 함. → 구현이 복잡, 많은 프로세스가 통신할 경우 낭비 심함.
 
-[https://t1.daumcdn.net/cfile/tistory/99E1BC3359FC780518](https://t1.daumcdn.net/cfile/tistory/99E1BC3359FC780518)
+![https://t1.daumcdn.net/cfile/tistory/99E1BC3359FC780518](https://t1.daumcdn.net/cfile/tistory/99E1BC3359FC780518)
 
 [출처]([https://mangkyu.tistory.com/9](https://mangkyu.tistory.com/9))
 
@@ -35,7 +35,7 @@
 
 ### 메시지 큐(Message Queue)
 
-[https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile4.uf.tistory.com%2Fimage%2F9936B1335B975B8105D210](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile4.uf.tistory.com%2Fimage%2F9936B1335B975B8105D210)
+![https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile4.uf.tistory.com%2Fimage%2F9936B1335B975B8105D210](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile4.uf.tistory.com%2Fimage%2F9936B1335B975B8105D210)
 
 [출처]([https://doitnow-man.tistory.com/110](https://doitnow-man.tistory.com/110))
 
@@ -52,7 +52,7 @@
 
 [출처]([https://blog.naver.com/akj61300/80126200460](https://blog.naver.com/akj61300/80126200460))
 
-[https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile28.uf.tistory.com%2Fimage%2F995C864E5B9766171D9786](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile28.uf.tistory.com%2Fimage%2F995C864E5B9766171D9786)
+![https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile28.uf.tistory.com%2Fimage%2F995C864E5B9766171D9786](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile28.uf.tistory.com%2Fimage%2F995C864E5B9766171D9786)
 
 [출처([https://doitnow-man.tistory.com/110](https://doitnow-man.tistory.com/110))
 
@@ -67,7 +67,7 @@
 - 파일을 프로세스 메모리에 맵핑해서 사용(공유 매개체가 파일+메모리)
 - 주로 파일로 대용량 데이터 공유 시 사용
 
-[https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile27.uf.tistory.com%2Fimage%2F9951304F5B9863F82D94DD](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile27.uf.tistory.com%2Fimage%2F9951304F5B9863F82D94DD)
+![https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile27.uf.tistory.com%2Fimage%2F9951304F5B9863F82D94DD](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile27.uf.tistory.com%2Fimage%2F9951304F5B9863F82D94DD)
 
 [출처]([https://doitnow-man.tistory.com/110](https://doitnow-man.tistory.com/110))
 
@@ -78,7 +78,7 @@
 - 클라이언트-서버 구조
 - 양쪽 컴퓨터(IP 주소)에서 임의의 포트(파이프)를 정하고, 해당 포트 간 소통을 통해 데이터 주고 받음(양방향)
 
-[https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcoRU8V%2FbtqUYHzqKoF%2FaukvQle0MCQnf1hcMAblJ1%2Fimg.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcoRU8V%2FbtqUYHzqKoF%2FaukvQle0MCQnf1hcMAblJ1%2Fimg.png)
+![https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcoRU8V%2FbtqUYHzqKoF%2FaukvQle0MCQnf1hcMAblJ1%2Fimg.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcoRU8V%2FbtqUYHzqKoF%2FaukvQle0MCQnf1hcMAblJ1%2Fimg.png)
 
 [출처]([https://cotak.tistory.com/45](https://cotak.tistory.com/45))
 
