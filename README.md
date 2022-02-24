@@ -6,7 +6,7 @@
 - [프로세스 & 스레드](운영체제/process_thread.md)
 - [CPU 스케줄링](운영체제/CPU%20스케줄링.md)
 - [Cache](운영체제/Cache.md)
-
+- [IPC](운영체제/IPC.md)
 ## Network
 - [HTTP](네트워크/HTTP.md) & [HTTPS](네트워크/HTTPS.md)
 - [블로킹&논블로킹&동기&비동기](네트워크/블로킹&논블로킹&동기&비동기.md)
@@ -19,6 +19,7 @@
 
 ## Algorithm
 - [해싱](알고리즘/해싱.md)
+- [정렬 알고리즘](알고리즘/정렬_알고리즘.md)
 
 ## IT Trends
 - [빅데이터](최신동향/빅데이터.md)
