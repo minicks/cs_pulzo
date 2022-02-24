@@ -1,0 +1,106 @@
+{
+  "main": {
+    "id": "67ff4da37964e99c",
+    "type": "split",
+    "children": [
+      {
+        "id": "0e803c2359e724f2",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "개발/GoF 디자인 패턴.md",
+            "mode": "source"
+          }
+        },
+        "group": "6c6e4becf8fb3af4"
+      },
+      {
+        "id": "04e167b8aea79ade",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "개발/GoF 디자인 패턴.md",
+            "mode": "preview"
+          }
+        },
+        "group": "6c6e4becf8fb3af4"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "096bdc48bfde3fbd",
+    "type": "split",
+    "children": [
+      {
+        "id": "33f0ca229efe41ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dc1c7191a16b94c7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "e407493eb8d2205b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d6f38102b68b63f5",
+    "type": "split",
+    "children": [
+      {
+        "id": "b50cb80f3e4bb4e9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bbf234d0bd99faf2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "개발/GoF 디자인 패턴.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "04e167b8aea79ade",
+  "lastOpenFiles": [
+    "개발/GoF 디자인 패턴.md",
+    "개발/GoF 디자인 패턴.pdf"
+  ]
+}
