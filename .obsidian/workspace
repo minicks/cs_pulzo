@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "0e803c2359e724f2",
+        "id": "07daa988aedb6159",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "개발/GoF 디자인 패턴.md",
+            "file": "README.md",
             "mode": "source"
           }
         },
-        "group": "6c6e4becf8fb3af4"
+        "group": "02db6ddd4456cc10"
       },
       {
-        "id": "04e167b8aea79ade",
+        "id": "810dd26ece3e6af8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "개발/GoF 디자인 패턴.md",
+            "file": "README.md",
             "mode": "preview"
           }
         },
-        "group": "6c6e4becf8fb3af4"
+        "group": "02db6ddd4456cc10"
       }
     ],
     "direction": "vertical"
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "개발/GoF 디자인 패턴.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -91,15 +91,26 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "9b943bac6044d32b",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
-  "active": "04e167b8aea79ade",
+  "active": "07daa988aedb6159",
   "lastOpenFiles": [
+    "README.md",
+    "운영체제/process_thread.md",
     "개발/GoF 디자인 패턴.md",
     "개발/GoF 디자인 패턴.pdf"
   ]

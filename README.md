@@ -17,6 +17,11 @@
 - [SQL vs NoSQOL](데이터베이스/SQLvsNoSQL.md)
 - [DB 제약조건](데이터베이스/DB%20제약조건.md)
 
+## 개발
+- [소프트웨어 개발 방법론](개발/소프트웨어%20개발%20방법론.md)
+- [mvc & mvp & mvvm & flux](개발/mvc&mvp&mvvm&flux.md)
+- [GoF 디자인 패턴](개발/GoF%20디자인%20패턴.md)
+
 ## Algorithm
 - [해싱](알고리즘/해싱.md)
 - [정렬 알고리즘](알고리즘/정렬_알고리즘.md)
