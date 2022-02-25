@@ -22,7 +22,7 @@ DNS: Domain Name System.
 - 계층, 역트리 구조
 - 상위 레벨의 DNS 서버는 바로 하위 레벨의 DNS 서버 목록, ip 주소를 알고 있음.
 
-[https://t1.daumcdn.net/cfile/tistory/997DA9405BDFB7B71E](https://t1.daumcdn.net/cfile/tistory/997DA9405BDFB7B71E)
+![https://t1.daumcdn.net/cfile/tistory/997DA9405BDFB7B71E](https://t1.daumcdn.net/cfile/tistory/997DA9405BDFB7B71E)
 
 이미지 출처: [https://ijbgo.tistory.com/27](https://ijbgo.tistory.com/27)
 
