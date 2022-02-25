@@ -62,15 +62,15 @@ DNS: Domain Name System.
     이미지 출처: [https://velog.io/@goban/DNS와-작동원리](https://velog.io/@goban/DNS%EC%99%80-%EC%9E%91%EB%8F%99%EC%9B%90%EB%A6%AC)
     
     1. 사용자가 브라우저에 www.naver.com이라는 주소를 검색
-    2. 맨 처음에 로컬 dns 서버를 만남. (디폴트로 가입한 통신사(인터넷 서비스 제공자 = ISP)가 제공하는 DNS 서버로 연결됨. - [https://ko.wikipedia.org/wiki/도메인_네임_시스템](https://ko.wikipedia.org/wiki/%EB%8F%84%EB%A9%94%EC%9D%B8_%EB%84%A4%EC%9E%84_%EC%8B%9C%EC%8A%A4%ED%85%9C) 속도가 느리거나, 프라이버시가 침해된다고 생각할 경우, 다른 public dns를 사용할 수 있음. - [https://developers.google.com/speed/public-dns](https://developers.google.com/speed/public-dns),  [https://1.1.1.1/ko-KR/dns/](https://1.1.1.1/ko-KR/dns/) 등이 있음. 단, 본인이 신뢰할 수 있다고 생각하는 DNS 서버를 사용해야 함!)
+    2. 맨 처음에 로컬 dns 서버를 만남. (디폴트로 가입한 통신사(인터넷 서비스 제공자 = ISP)가 제공하는 DNS 서버로 연결됨. - [https://ko.wikipedia.org/wiki/도메인_네임_시스템](https://ko.wikipedia.org/wiki/%EB%8F%84%EB%A9%94%EC%9D%B8_%EB%84%A4%EC%9E%84_%EC%8B%9C%EC%8A%A4%ED%85%9C) 마음에 안 드는 경우(속도가 느리거나, 프라이버시가 침해된다고 생각하는 등), 다른 public dns를 사용할 수 있음. - [구글의 public dns](https://developers.google.com/speed/public-dns),  [1.1.1.1 public dns](https://1.1.1.1/ko-KR/dns/) 등이 있음. 단, 본인이 신뢰할 수 있다고 생각하는 DNS 서버를 사용해야 함!)
         
-        이 로컬 서버가 Root DNS 서버에게 www.naver.com에 대해 물어봄
+        이 로컬 서버가 Root DNS 서버에게 www.naver.com 에 대해 물어봄
         
     3. Root DNS 서버는 .com을 관리하는 top level DNS 서버의 정보를 로컬 DNS 서버에게 알려줌
-    4. 로컬 DNS 서버는 .com을 담당하는 top level DNS 서버에게 www.naver.com에 대해 물어봄.
+    4. 로컬 DNS 서버는 .com을 담당하는 top level DNS 서버에게 www.naver.com 에 대해 물어봄.
     5. top level DNS 서버는 naver.com을 담당하는 DNS 서버의 정보를 로컬 DNS 서버에게 알려줌.
-    6. 로컬 DNS 서버는 naver.com을 담당하는 DNS 서버에게 www.naver.com에 대해 물어봄.
-    7. 이번에 만난 DNS 서버는 www.naver.com의 IP주소를 알고 있어서, 이를 로컬 DNS 서버에게 알려줌. DNS 는 이 정보를 로컬 캐시에 저장함.
+    6. 로컬 DNS 서버는 naver.com을 담당하는 DNS 서버에게 www.naver.com 에 대해 물어봄.
+    7. 이번에 만난 DNS 서버는 www.naver.com 의 IP주소를 알고 있어서, 이를 로컬 DNS 서버에게 알려줌. DNS 는 이 정보를 로컬 캐시에 저장함.
     8. 클라이언트에게 IP 주소를 알려줌. → 이 IP주소를 활용해서 네이버 사이트에 접속할 수 있음.
     
 
@@ -88,7 +88,7 @@ Time To Live
 
 **hosts**
 
-운영체제가 호스트 이름을 ip주소에 매핑할 때 사용하는 컴퓨터 파일. plain text 파일. ([https://ko.wikipedia.org/wiki/Hosts](https://ko.wikipedia.org/wiki/Hosts))
+운영체제가 호스트 이름을 ip주소에 매핑할 때 사용하는 컴퓨터 파일. plain text 파일. ([](https://ko.wikipedia.org/wiki/Hosts))
 
 보안 이슈(예- naver.com을 입력했는데, 사기꾼의 ip주소로 연결되는 등)
 
@@ -96,7 +96,7 @@ Time To Live
 
 - A: 도메인 주소를 IP주소(IPv4)로 매핑
 - AAAA : 도메인 주소를 IP주소(IPv6)로 매핑
-- CNAME(Canonical Name): 도메인 주소에 대한 별명 - 예) www.[naver.com](http://naver.com), naver.com
+- CNAME(Canonical Name): 도메인 주소에 대한 별명 - 예)www.naver.com, naver.com
 - NS(Name Server): 호스팅 영역의 네임 서버
 
 ### 참고 자료
