@@ -11,7 +11,7 @@
 
 # Forward proxy
 
-[https://t1.daumcdn.net/cfile/tistory/990743455A43A1A109](https://t1.daumcdn.net/cfile/tistory/990743455A43A1A109)
+![https://t1.daumcdn.net/cfile/tistory/990743455A43A1A109](https://t1.daumcdn.net/cfile/tistory/990743455A43A1A109)
 
 (출처: [https://yunyoung1819.tistory.com/9](https://yunyoung1819.tistory.com/9))
 
@@ -26,7 +26,7 @@
 
 # Reverse Proxy
 
-[https://t1.daumcdn.net/cfile/tistory/992759465A43A1DA30](https://t1.daumcdn.net/cfile/tistory/992759465A43A1DA30)
+![https://t1.daumcdn.net/cfile/tistory/992759465A43A1DA30](https://t1.daumcdn.net/cfile/tistory/992759465A43A1DA30)
 
 ([https://yunyoung1819.tistory.com/9](https://yunyoung1819.tistory.com/9))
 
