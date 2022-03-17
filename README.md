@@ -21,6 +21,8 @@
 
 - [SQL vs NoSQOL](데이터베이스/SQLvsNoSQL.md)
 - [DB 제약조건](데이터베이스/DB%20제약조건.md)
+- [SQL Join](데이터베이스/SQL%20Join.md)
+- [DB key](데이터베이스/DB%20key.md)
 
 ## 개발
 
