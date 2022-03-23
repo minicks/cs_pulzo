@@ -46,3 +46,7 @@
 ## Web
 
 - [GraphQL](웹/GraphQL.md)
+
+## Programming
+
+- [절차 지향 vs 객체 지향](프로그래밍/절차 지향 vs 객체 지향.md)
