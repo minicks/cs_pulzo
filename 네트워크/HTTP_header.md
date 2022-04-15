@@ -73,5 +73,7 @@ http://www.ktword.co.kr/test/view/view.php?m_temp1=648
 
 ## 참고 자료
 https://developer.mozilla.org/ko/docs/Web/HTTP/Headers
+
 https://www.youtube.com/watch?v=mQTGmxendk8
+
 https://velog.io/@pixelstudio/크롬-개발자-도구로-보는-HTTP-헤더-알아보기
