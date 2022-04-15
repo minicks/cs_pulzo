@@ -17,6 +17,7 @@
 - [OSI 7 layer](네트워크/osi7layer.md)
 - [DNS](네트워크/DNS/DNS.md)
 - [Proxy](네트워크/Proxy.md)
+- [HTTP header](네트워크/HTTP_header)
 
 ## DB
 
