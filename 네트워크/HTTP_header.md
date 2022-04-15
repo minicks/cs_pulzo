@@ -19,6 +19,8 @@ http://www.ktword.co.kr/test/view/view.php?m_temp1=648
 
 - 대소문자를 구분하지 않는 이름과 콜론 ':' 다음에 오는 값(줄 바꿈 없이)으로 이뤄짐.
 
+
+
 ## 일반 헤더(General Header)
 
 - 일반적인 정보 담음
@@ -26,6 +28,7 @@ http://www.ktword.co.kr/test/view/view.php?m_temp1=648
 - Date : 메시지가 만들어진 날짜, 시간
 - Cache-Control: 캐시에 관한 설정
 - Connect: 현재 전송 완료 후 네트워크 접속을 유지할지 말지
+(더 많은 헤더가 있지만 다른 블로그, MDN 문서에서 강조한 일부 헤더만 다룸.)
 - ![image](https://user-images.githubusercontent.com/68271159/163570866-44fd0df6-f59b-40ba-9860-0740d36476ed.png)
 
 ## 엔티티 헤더(Entity Header)
@@ -66,3 +69,9 @@ http://www.ktword.co.kr/test/view/view.php?m_temp1=648
 
 - 2012년 폐기
 - 커스텀 등록 헤더 (사용자가 임의로 정의한 헤더)
+
+
+## 참고 자료
+https://developer.mozilla.org/ko/docs/Web/HTTP/Headers
+https://www.youtube.com/watch?v=mQTGmxendk8
+https://velog.io/@pixelstudio/크롬-개발자-도구로-보는-HTTP-헤더-알아보기
