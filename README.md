@@ -8,6 +8,7 @@
 - [CPU 스케줄링](운영체제/CPU%20스케줄링.md)
 - [Cache](운영체제/Cache.md)
 - [IPC](운영체제/IPC.md)
+- [동기화 도구](운영체제/동기화_도구.md)
 
 ## Network
 
