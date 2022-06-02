@@ -30,6 +30,7 @@
 - [SQL Join](데이터베이스/SQL%20Join.md)
 - [DB key](데이터베이스/DB%20key.md)
 - [트랜잭션](데이터베이스/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98.md)
+- [DB 정규화](데이터베이스/DB%20정규화.md)
 
 ## 개발
 
@@ -54,6 +55,7 @@
 ## Web
 
 - [GraphQL](웹/GraphQL.md)
+- [WebAssembly](웹/WebAssembly.md)
 
 ## Programming
 
