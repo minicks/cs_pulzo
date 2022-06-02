@@ -20,6 +20,8 @@
 - [Proxy](네트워크/Proxy.md)
 - [HTTP header](네트워크/HTTP_header.md)
 - [TCP/IP](네트워크/TCP-IP.md)
+- [SSL](네트워크/SSL.md)
+- [Nginx](네트워크/Nginx.md)
 
 ## DB
 
