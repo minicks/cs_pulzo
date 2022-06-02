@@ -53,6 +53,7 @@
 ## Web
 
 - [GraphQL](웹/GraphQL.md)
+- [WebAssembly](웹/WebAssembly.md)
 
 ## Programming
 
