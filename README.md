@@ -57,7 +57,7 @@
 
 - [GraphQL](웹/GraphQL.md)
 - [WebAssembly](웹/WebAssembly.md)
-- [인증 방식 별 차이(쿠키-세션, JWT )](웹/인증_방식_쿠키_세션_JWT.md)
+- [인증 방식 별 차이(쿠키-세션, JWT )](웹/인증_방식_별_차이.md)
 
 ## Programming
 
