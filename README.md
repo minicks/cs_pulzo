@@ -66,3 +66,11 @@
 ## 보안
 
 - [대칭키 비대칭키](보안/대칭키_비대칭키.md)
+
+---
+
+# 책으로 공부하자
+
+|||
+|-|-|
+|<img src="http://image.kyobobook.co.kr/images/book/xlarge/529/x9791165219529.jpg" width="200"></img>|- 면접을 위한 CS 전공지식 노트<br> - [Notion page](https://mintropy.notion.site/CS-9e80f82278484d1293858d0b0a6b9423)|
